@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Dashboard</title>
+    <title>Vasanth's Weather Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-    <!-- Firebase COMPAT scripts — works in ALL WebViews including WebIntoApp -->
+    <!-- Firebase COMPAT scripts -->
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
@@ -85,7 +85,7 @@
             </div>
         </div>
 
-        <!-- SENSOR METRICS — 4 cards only (no pressure) -->
+        <!-- SENSOR METRICS -->
         <div class="metrics-grid">
             <div class="card metric-card" style="--accent:#3b82f6">
                 <div class="metric-icon">🌡️</div>
@@ -135,7 +135,7 @@
         <div class="card crop-card">
             <div class="card-header-row">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 1 10 10"/><path d="M12 2v20"/><path d="M2 12h20"/><path d="M12 2C6.477 2 2 6.477 2 12"/></svg>
-                <h2>🌾 Farmer's Crop & Field Guide</h2>
+                <h2>🌾 Farmer's Crop &amp; Field Guide</h2>
             </div>
             <div id="cropGuide" class="crop-grid">
                 <div class="placeholder-text">Waiting for weather data to generate crop recommendations...</div>
